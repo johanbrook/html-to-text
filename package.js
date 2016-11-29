@@ -1,7 +1,7 @@
 Package.describe({
   name: 'lookback:html-to-text',
   summary: 'Meteor wrapper',
-  version: '2.1.3_1',
+  version: '2.1.3_2',
   git: 'https://github.com/johanbrook/html-to-text.git',
   documentation: null
 });
