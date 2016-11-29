@@ -11,6 +11,7 @@ Npm.depends({
 });
 
 Package.onUse(function(api) {
+  api.versionsFrom('1.3');
   api.use(['ecmascript'], 'server');
   api.mainModule('export.js', 'server');
 });
