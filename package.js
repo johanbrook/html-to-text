@@ -11,5 +11,6 @@ Npm.depends({
 });
 
 Package.onUse(function(api) {
+  api.use(['ecmascript'], 'server');
   api.mainModule('export.js', 'server');
 });
